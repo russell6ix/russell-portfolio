@@ -109,7 +109,9 @@ body {
 
 }
 .navbar ul li {   
-     padding: 0.3rem;
+     /*padding: 0.3rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .navbar a {
@@ -118,7 +120,11 @@ body {
 }
 
 .navbar li {
-    display: inline;
+    display: inline-block;
+}
+
+.navbar ul li a h3 {
+    font-size: 0.8rem;
 }
 
 .popover {
